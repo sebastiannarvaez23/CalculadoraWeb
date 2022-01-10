@@ -1,0 +1,15 @@
+
+.contain-operadores{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin: 20px;
+}
+
+.contain-operadores div button{
+    width: 95%;
+    height: 30px;
+    margin: 2px;
+    background-color: rgb(182, 196, 196);
+    border-radius: 10px;
+}
