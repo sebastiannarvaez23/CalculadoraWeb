@@ -1,10 +1,11 @@
 .panel-calcu{
     background-color: rgba(0, 0, 0, 0.753);
-    width: 400px;
+    width: 500px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
     border-radius: 20px;
     margin-top: 10%;
+    box-shadow: 10px 10px 2px 2px rgba(199, 225, 226, 0.753);
 }

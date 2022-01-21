@@ -1,18 +1,24 @@
 .contain-numeros{
     display: grid;
     grid-template-columns: auto auto auto;
-    margin: 10px;
-    width: 90%;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contain-numeros div{
-    margin: 3px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contain-numeros div button{
-    width: 95%;
-    height: 25px;
-    border-radius: 4px;
+    width: 115px;
+    height: 40px;
+    border-radius: 0.5em;
+}
 
+.contain-numeros div button:hover{
+    background-color: rgb(210, 229, 245);
 }

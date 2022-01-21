@@ -42,10 +42,13 @@ function App() {
       op === 'x' ||
       op === '/'
     ) {
-      setPrimerNumero((valueInput).toString());
-      setOperacion(op);
+      if (valueInput != ""){
+        setPrimerNumero((valueInput).toString());
+        setOperacion(op);
+      } else {
+        setOperacion(op);
+      };
     };
-
     limpiarInput();
   };
 
